@@ -14,6 +14,7 @@ script:
   - yarn build
 
 notifications:
+  slack: travis-citest:IC4II2ziKAZ4dc5B3gV15s3s
   email: 
     recipients:
       - eormeno12@gmail.com
